@@ -1,0 +1,32 @@
+﻿@model MVCAppAssignment.Models.Product 
+
+@{
+    ViewBag.Title = "Deatils";
+}
+
+<h2>Product Deatils</h2>
+
+<table class="table table-bordered table-hover">
+
+
+
+    <tr>
+        <td>Product Id</td>
+        <td>
+        @Model.Product_Id
+        </td>
+    </tr>
+    <tr>
+        <td>Product Name</td>
+        <td>
+           @Model.Product_Name
+        </td>
+    </tr>
+    <tr>
+        <td>Product Rate</td>
+        <td>@Model.Rate</td>
+    </tr>
+
+
+
+</table>
